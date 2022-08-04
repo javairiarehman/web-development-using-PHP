@@ -1,0 +1,37 @@
+<html>
+     <head>
+
+         <title> contact me </title>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <link rel="stylesheet" type="text/css" href="contactme.css">
+         </head>
+         <body>
+             <div class="contact-box">
+                
+            <h3>Contact From Here</h3>
+                <form id="form" action="#">
+                  <div class="inputBox">  
+                 <input type="text" class="input-field" placeholder="Your Name">
+                 <input type="text" id="txtEmail" placeholder="Your Email" class="input-field" onkeyup="ValidateEmail();" />
+<span id="lblError" style="color: rgb(89, 0, 255)"></span>
+                 <input type="text" id="txtName" class="input-field" placeholder="sender name" onkeyup="ValidateSender();"/>
+				 <br>
+                 <span id="lblError1" style="color: rgb(89, 0, 255)"></span>
+                 <textarea type="text" name="fname"
+                 id="txtmessage" class="input-field textarea-field" placeholder="your message" onkeyup="ValidateMessage();" >
+             </textarea>
+             <span id="lblError2" style="color: rgb(89, 0, 255)"></span>
+             <br>
+            <button type="button" class="btn"> Send Message</button>
+        </div>    
+        
+    </form>
+</div>
+<script type="text/javascript" src="contactme.js">
+    
+</script>
+
+
+            
+         </body>
+         </html>

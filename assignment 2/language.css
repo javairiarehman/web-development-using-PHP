@@ -1,0 +1,32 @@
+.container{
+    position: relative;
+    width:100%;
+    max-width:800px;
+    margin-left:250px;
+    min-height:700px;
+    background:white;
+     display:grid;
+    grid-template-columns:1fr 2fr;
+    box-shadow:0 35px 55px rgba(0, 0,0, 1);
+    }
+    body{
+
+        background:lightblue;  }
+        .title2{
+            color:darkblue;
+            
+            letter-spacing:1px;
+            margin-bottom:10px;
+        }
+        p{
+            color:black;
+            font-weight:500;
+        }
+        .imgBx
+{
+    position:relative;
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    overflow:hidden;
+}
